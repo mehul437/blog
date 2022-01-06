@@ -1,0 +1,689 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.titl{
+    text-align: center;
+    height: 80px;
+}
+   
+.han{
+    color: red;
+}
+.the{
+    font-size:35px ;
+  
+}
+.siren{
+    font-size: 50px;
+    font-weight: 700;
+}
+.navi{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    padding: 1%;
+    margin-left: 10%;
+    border-bottom: 1px rgb(218, 210, 210) solid;
+    
+}
+.bar{
+    display: none;
+}
+.headernav:hover{
+    color: red;
+    cursor: pointer;
+}
+.headernav{
+    color: rgb(32, 32, 32);
+}
+
+
+/* above one is header styling */
+
+.gallery{
+    width: 100%;
+}
+.gallerymain{
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    margin-top: 20px;
+}
+.sideone{
+    height: 300px;
+    width: 630px;
+    position: relative;
+    
+
+}
+.quote{
+    position: absolute;
+    bottom:15%;
+    left: 10%;
+    color:white
+}
+.quote p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.sideimg{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.topimg,.bottomimg{
+    height: 145px;
+    width: 100%;
+    object-fit: cover;
+}
+.sidetwo{
+    height: 300px;
+    width: 380px;
+    margin-left: 5px;
+}
+.sidetwo .top{
+    width: 100%;
+    height: 147px;
+    position: relative;
+}
+.sidetwo .bottom{
+    width: 100%;
+    height: 147px;
+    margin-top: 5px;
+    position: relative;
+}
+
+
+/* above one is gallery code */
+.article{
+    
+    width: 280px;
+    
+}
+
+.article .desc{
+    width: 90%;
+    margin-left: 5%;
+    padding: 5px;
+     font-size: 15px;
+     color: rgb(78, 78, 78);
+}
+.article .image{
+    height: 180px;
+    width:100%;
+}
+.article .image img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.article .desc .date {
+    margin-top: 10px;
+}
+.article .desc .data{
+    margin-top: 5px;
+}
+
+
+/* above is for article */
+.thetitle{
+    margin-left: 6%;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.line{
+    width: 160px;
+    border: 2px solid gold;
+    margin-left: 6%;
+}
+.latestbox{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+
+/* above code is for latest */
+  .latestmain{
+      position: relative;
+       margin-top: 20px;
+       width: 85%;
+       display: flex;
+       flex-direction: row;
+  }
+  .adv{
+      width: 24%;
+      height: 500px;
+      line-height: 500px;
+      text-align: center;
+      border: 1px solid black;
+      position: absolute;
+      top: 3%;
+      right:0%;
+      background-color: white;
+      
+  }
+  .latestblock{
+      margin-left: 10%;
+      width:80%;
+      
+      margin-right: 10%;
+      flex-direction: row;
+      display: flex;
+      color: rgb(82 78 78);
+       font-size: 16px;
+       margin-top: 17px;
+  }
+  .latestline{
+      width: 80%;
+      margin-left: 10%;
+      border:1px solid rgb(206, 195, 195);
+      margin-top: 17px;
+      
+  }
+  .latestblock .data{
+      font-size: 14px;
+      margin-top: 5px;
+  }
+   .latestblock .date{
+      margin-top: 10px;
+       font-size: 14px;
+  }
+
+  .latestblock .imagee{
+      width: 40%;
+      height: 140px;
+
+  }
+  .latestblock .imagee img{
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      
+
+  }
+  .latestblock .descrip{
+      width: 54%;
+      margin-left: 3%;
+      
+
+  }
+
+.load{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.load button{
+    padding: 5px;
+}
+
+/* above code is for article */
+
+.storymain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(53, 52, 52);
+
+}
+.storybox{
+    width:30%;
+    margin-top: 4%;
+
+}
+.storybox p{
+    margin-top: 4%;
+    size: 15px;
+   
+}
+.storyline{
+    display: none;
+}
+
+/* above code is for story */
+
+.advert{
+    width:260px;
+    margin-top: 10px;
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+
+}
+.yside{
+      width: 200px;
+      margin-left: 40px;
+      
+  }
+  .yside h2{
+      font-size: 30px;
+
+  }
+  .yside .story{
+      width:100px;
+      border: 2px solid gold;
+  }
+  .topstory{
+      width: 260px;
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+        color: rgb(80, 79, 79);
+
+  }
+  .topstory .storyimage{
+      width: 110px;
+      height: 100px;
+
+  }
+  .storyimage img{
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+  }
+  .storiline{
+      border: 1px rgb(167, 162, 162) solid;
+      width: 260px;
+      margin-top: 10px;
+  }
+  .topstory  .storydesc{
+      width: 145px;
+      margin-left: 5px;
+      
+  }
+  .topstory p{
+      margin-top: 5px;
+      font-size: 13px;
+  }
+
+
+
+  /* the above code is for story */
+
+  .detailmain{
+      margin-top: 20px;
+      width: 72%;
+      margin-left: 14%;
+      color: rgb(27, 27, 27);
+      
+  }
+  
+  .detailmain p{
+      margin-top: 20px;
+      margin-left: 3%;
+      font-size: 18px;
+      font-weight: 600;
+
+  }
+  .detailmain h3{
+      margin-top: 15px;
+      margin-left: 3%;
+      font-weight: 600;
+  }
+  .detailmain span{
+      margin-left: 3%;
+  }
+  .boximage{
+      width: 100%;
+      margin-top: 20px;
+      height: 400px;
+  }
+  .boximage img{
+      width: 100%;
+      height: 400px;
+      object-fit: contain;
+  }
+  .boxdesc{
+      margin-left: 5%;
+      width: 90%;
+      font-size: 17px;
+      margin-top: 20px;
+      line-height: 25px;
+  }
+@media screen and (max-width:600px)
+{
+    
+.titl{
+    text-align:start;
+    height: 60px;
+     background-color: white;
+    border: 1px rgb(202, 194, 194) solid;
+    
+}
+.the{
+    font-size:27px ;
+    margin-left: 5%;
+}
+.siren{
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.bar{
+    display: inline;
+    position: absolute;
+    right: 5%;
+    line-height: 65px;
+}
+.navi{
+        display: none;
+
+    }
+.navig{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    border:1px rgb(189, 188, 188) solid;
+    background-color: rgb(236, 231, 231);
+    position: absolute;
+    z-index: 1;
+
+    }
+    .navig div{
+        padding: 1%;
+    }
+
+ 
+/* above one is header styling */
+.gallery{
+      width: 100%;
+      height: 300px;
+      position: relative;
+      overflow: hidden;
+    
+  }
+    .gallerymain{
+    width: 300%;
+    display: flex;
+    margin-left: 0px;
+    flex-direction: row;
+    animation:zone 15s infinite linear;
+   }
+
+   @keyframes zone {
+       0%{margin-left: 0%;}
+      
+       26%{margin-left: 0%;}
+       36%{margin-left: -100%;}
+      
+       65%{margin-left: -100%;}
+       75%{margin-left: -200%;}
+     
+       100%{margin-left: -200%;}
+       
+   }
+.sideone{
+    height: 300px;
+    width: 32%;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.sidetwo{
+    height: 300px;
+    width: 70%;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+     margin-left: 0%;
+    margin-right: 0%;
+}
+
+.topimg,.bottomimg{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.sidetwo .top{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0px;
+}
+.sidetwo .bottom{
+    width: 100%;
+    height: 300px;
+    position: relative;
+     margin-left: 4%;
+    margin-right: 2%;
+    margin-top: 0px;
+}
+
+
+/* above one is gallery code */
+
+.article{
+    
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.article .desc{
+    width: 96%;
+    margin-left: 2%;
+    padding: 5px;
+     font-size: 15px;
+     color: rgb(78, 78, 78);
+}
+.article .image{
+    height: 180px;
+    width:100%;
+}
+.article .image img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.article .desc .date {
+    margin-top: 10px;
+}
+.article .desc .data{
+    margin-top: 5px;
+}
+
+
+/* above is for article */
+.thetitle{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 30px;
+}
+.line{
+    width: 180px;
+    border: 2px solid gold;
+    margin-left: 5%;
+}
+.latestbox{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*  above code is for latest  */
+
+.latestmain{
+      position: relative;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+  }
+  .adv{
+      display: none;
+      
+  }
+  .latestblock{
+      margin-left: 10%;
+      width:100%;
+      
+      margin-right: 10%;
+      flex-direction: row;
+      display: flex;
+      color: rgb(95, 94, 94);
+       font-size: 15px;
+       margin-top: 15px;
+  }
+  .latestti{
+      font-size: 17px;
+  }
+  .latestline{
+      width: 100%;
+      margin-left: 10%;
+      border:1px solid rgb(206, 195, 195);
+      margin-top: 15px;
+      
+  }
+  .latestblock .data{
+     
+      margin-top: 5px;
+      display: none;
+  }
+   .latestblock .date{
+      margin-top: 10px;
+  }
+
+  .latestblock .imagee{
+      width: 40%;
+      height: 100px;
+
+  }
+  .latestblock .imagee img{
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      
+
+  }
+  .latestblock .descrip{
+      width: 60%;
+      margin-left: 4%;
+      
+
+  }
+/* above code is for latest article */
+  
+.storymain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    width: 80%;
+    margin-left: 10%;
+
+}
+.storybox{
+
+    width:100%;
+    margin-top: 6%;
+
+}
+.storybox p{
+    margin-top: 4%;
+    size: 14px;
+    color: rgb(53, 52, 52);
+}
+.storyline{
+    margin-top: 6%;
+    display: block;
+    width:100%;
+    border:1px rgb(196, 187, 187) solid;
+}
+
+
+/* bellow is for bolly stories  */
+
+
+.advert{
+    display: none;
+
+}
+.yside{
+      width: 90%;
+      margin-left: 10%;
+    
+      
+  }
+  .yside h2{
+      font-size: 30px;
+      margin-top: 20px;
+
+  }
+  .yside .story{
+      width:34%;
+      border: 2px solid gold;
+  }
+  .topstory{
+      width: 100%;
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 20px;
+        color: rgb(80, 79, 79);
+
+  }
+  .topstory .storyimage{
+      width: 35%;
+      height: 100px;
+
+  }
+  .storyimage img{
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+  }
+  .storiline{
+      border: 1px rgb(167, 162, 162) solid;
+      width: 90%;
+      margin-top: 20px;
+  }
+  .topstory  .storydesc{
+      width: 60%;
+      margin-left: 5px;
+      
+  }
+  .topstory p{
+      margin-top: 5px;
+      font-size: 13px;
+  }
+  
+/* above  code is for story */
+
+
+  .detailmain{
+      width: 80%;
+      margin-left: 10%;
+      color: rgb(27, 27, 27);
+  }
+
+    .boximage{
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 20px;
+      height: 350px;
+  }
+  .boximage img{
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+  }
+} 
