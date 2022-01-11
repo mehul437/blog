@@ -37,7 +37,7 @@ export default function Detail() {
                 <img src={data.image} alt="not available"></img>
             </div>
             <h3>Published by: {data.author}<span>{data.date}</span></h3>
-            <div className='boxdesc'>
+            <div className='boxdesctop'>
                 {data.description}
             </div>
             <div className='boxdesc'> {data.explanation}</div>

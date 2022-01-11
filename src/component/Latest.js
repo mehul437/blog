@@ -26,7 +26,7 @@ export default function Latest() {
     }
     return (
         <>
-        <h2 className='thetitle'>The Latest</h2>
+        <h2 className='thetitle'>The Post</h2>
         <hr className='line'></hr>
                 <div className='latestbox'>
                     {
