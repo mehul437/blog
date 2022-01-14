@@ -21,7 +21,6 @@ export default function Thepost() {
         arr = latest.filter((item) => item.category === 'article')
         
         arr= arr.filter((item, index) => index < 3)
-        console.log(arr)
         setdata([...arr])
         }
     const change=()=>{

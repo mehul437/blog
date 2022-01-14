@@ -29,7 +29,14 @@
     border-bottom: 1px rgb(218, 210, 210) solid;
     
 }
+.cross1{
+    display: none
+    
+}
 .navig{
+    display: none;
+}
+.cross{
     display: none;
 }
 .bar{
@@ -387,11 +394,24 @@
     font-weight: 700;
 }
 
+.cross1{
+    display: inline;
+    position: absolute;
+    right: 5%;
+    line-height: 65px;
+    
+}
+.cross{
+    display: none;
+}
 .bar{
     display: inline;
     position: absolute;
     right: 5%;
     line-height: 65px;
+}
+.bar1{
+    display: none;
 }
 .navi{
         display: none;

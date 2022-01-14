@@ -21,7 +21,6 @@ export default function Storylatest() {
         arr = latest.filter((item) => item.category === 'technology')
 
         arr = arr.filter((item, index) => index < 3)
-        console.log(arr)
         setdata([...arr])
     }
     const change = () => {
