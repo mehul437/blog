@@ -570,6 +570,39 @@ export const DataProvider = (props) => {
             explanation: 'Chris Hemsworth is a bona fide fitness freak — how else would you define his fine physique and sculpted muscles that make him look like the Norse God Thor whom he plays on screen While the year has  begun, you can always incorporate these exercises into your routine, especially if getting fit is your resolution for 2022. While they may look grueling, a few warm-up sessions will help you find your groove. The actor begins with a bear crawl that he does for 40 seconds, before moving on to switches, again for 40 seconds, followed by tricep push, flutter kicks, prisoner squats, mountain climbers to elbow, burpees, butterfly sit-ups, sit thrus, and plank jack push-up for 40 seconds each.'
 
         }, 
+        {
+            author: 'Nicole',
+            title: 'Title of vertical gallery ',
+            image: '/images/autumn.jpg',
+            category: 'gallery',
+            description: 'Title of vertical gallery ' ,
+            date: 'Travel / August 21 2017',
+            id: '53',
+            explanation: 'The Rainy Season or more formally addressed as the monsoon season reaches India around the mid of June and stays until late august/early September. This season is primarily categorized by heavy incessant rainfall and humid conditions. Despite the prevalence of humidity, the cool showers bring much-needed respite from the scorching sun. As it rains, dry barren ponds and puddles are infused with life again. Rivers, yet again, flow at their full capacity and birds chirp all day long. Rains have, since times immemorial, been the favorite season of the land. It fuels flora and fauna enough to bear the brunt of dry barren summers and harsh freezing winters. Flowers bloom in all their full grandeur and crop roots soak up water during this time of the year.'
+
+        }, 
+        {
+            author: 'Nicole',
+            title: 'The sound cloud you loved ',
+            image: '/images/gloomyroad.jpg',
+            category: 'gallery',
+            description: 'The sound cloud you loved ',
+            date: 'Travel / August 21 2017',
+            id: '54',
+            explanation: 'Last year, in June I went for a visit to the hill stations named Gaddigaon and Zuluk, which is located in the East Sikkim. During June, it was utterly monsoon in East Sikkim. That was a fantastic feeling while experiencing the monsoon weather of the hill stations with my husband and that was a truly memorable trip for us. It was frequently raining throughout the day along with the cold and misty weather. Drenching in the rain waters in that cold weather was an inexpressible feeling. All the places were covered with clouds and mists, and there was the expansion of greenery all around the hills. In Gaddigaon, we stayed in a resort, from where we had a mesmerizing view of the range of mountains covered with clouds. In the resort, there was a small sitting area, beautifully decorated with the crafted wooden benches and a hut-like shade of straw and bamboo, where we used to sit for long and enjoy the pleasure of watching the mighty ranges of the Kanchenjunga Mountains covered with clouds. During the night it was really amazing to view the glittering lower valley of the entire East Sikkim. From Gaddigaon on the way to Zuluk, we encountered several mesmerizing waterfalls and scenic beauty of the mountains and clouds which left us spellbound. It was an entirely new experience the beauty monsoon in the hills. Though the old silk route to Zuluk was quite risky and accident-prone yet it was an outstanding feel of adventure while exploring the old silk route. We took some beautiful snaps of the beauty of monsoon in the hills and even daringly drenched in the chilled waters of the flowing waterfalls.'
+
+        }, 
+        {
+            author: 'Nicole',
+            title: 'Nature cloud is doomed ',
+            image: '/images/nature.jpg',
+            category: 'gallery',
+            description: 'Nature cloud is doomed ',
+            date: 'Travel / August 21 2017',
+            id: '55',
+            explanation: 'Monsoon in Himachal Pradesh is from July to September. The hills turn a lush green from all sides and Dalhousie gets most of the rain. However, although the rain turns the state mesmerising, there is an increased danger of landslides at this time so it’s always better to be forewarned. While not so great for adventure seekers as trekking and hiking are not allowed, Nature’s bounty is splendid during this season and with the light mist and beautiful atmosphere, you will have an unforgettable holiday if you visit Spiti, Kinnaur, Kasauli or McLeod Ganj. Most often, people avoid visiting Himachal Pradesh during the monsoons because of the unexpectedness of the rainfall and the possibility of landslides. But train and flight fares are relatively lower, and hotels offer off-season discounts. Remember to carry an umbrella and a few warm clothes as it can get quite cool when it rains.Himachal Pradesh in the monsoons is like tonic for the soul.If you’re the kind of person who doesn’t mind a few inconveniences such as getting wet in a sudden downpour, you will love visiting Himachal during the rains.The fine mist in the air, the sudden chill that makes you shiver, the brilliant verdant green of the tree covered mountains – all these will surely be imprinted on your mind for a long time. '
+
+        }, 
 
 
 
