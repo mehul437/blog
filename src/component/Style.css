@@ -73,7 +73,8 @@
     position: absolute;
     bottom:15%;
     left: 10%;
-    color:white
+    color:white;
+    font-size: larger;
 }
 .quote p{
     margin-top: 10px;
