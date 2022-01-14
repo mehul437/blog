@@ -29,6 +29,9 @@
     border-bottom: 1px rgb(218, 210, 210) solid;
     
 }
+.navig{
+    display: none;
+}
 .bar{
     display: none;
 }
@@ -403,6 +406,7 @@
     background-color: rgb(236, 231, 231);
     position: absolute;
     z-index: 1;
+    display: block;
 
     }
     .navig div{

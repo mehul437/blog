@@ -21,7 +21,7 @@ function App() {
           <Route path='/' element={<Navigate to='/home'/>}/>
           <Route path='/home' element={<Home />} />
           <Route path='/bollywood' element={<Bollywoodlatest  />} />
-            <Route path='/hollywood' element={<Hollywoodlatest />} />
+          <Route path='/hollywood' element={<Hollywoodlatest />} />
           <Route path='/technology' element={<Technology />} />
           <Route path='/food' element={<Food />} />
           <Route path='/fitness' element={<Fitness />} />

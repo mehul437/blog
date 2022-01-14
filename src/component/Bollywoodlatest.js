@@ -1,4 +1,4 @@
-
+import './Style.css'
 import React, { useContext, useState, useRef } from 'react'
 import { ContextArticle } from './ContextArticle'
 import { useEffect } from 'react'

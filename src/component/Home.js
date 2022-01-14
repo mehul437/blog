@@ -1,4 +1,5 @@
 import React from 'react'
+import './Style.css'
 import Gallery from './Gallery'
 import Latest from './Latest'
 import Storylatest from './Storylatest'
