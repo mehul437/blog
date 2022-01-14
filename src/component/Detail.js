@@ -29,9 +29,12 @@ export default function Detail() {
     return (
         <div className='detailmain'>
             <h1>{data.title}</h1>
-            <p>Share this article : <span><i className="fab fa-facebook fa-2x"></i></span>
-                <span><i className="fab fa-instagram-square fa-2x"></i></span>
-                <span><i className="fab fa-snapchat-square fa-2x"></i></span>
+            <p>Share this article : <span className='facebook'><i className="fab fa-facebook fa-2x"></i></span>
+                <span className='span'><i className="fab fa-snapchat fa-2x" aria-hidden="true"></i></span>
+                <span className='twiter'><i className="fab fa-twitter-square fa-2x" aria-hidden="true"></i></span>
+            </p>
+            <p>
+              Like this article :  <span><i className="fa fa-thumbs-up fa-2x"></i></span>
             </p>
             <div className='boximage'>
                 <img src={data.image} alt="not available"></img>
