@@ -74,7 +74,7 @@
     bottom:15%;
     left: 10%;
     color:white;
-    font-size: larger;
+    font-size: large;
 }
 .quote p{
     margin-top: 10px;
@@ -456,6 +456,13 @@
       overflow: hidden;
     
   }
+  .quote{
+    position: absolute;
+    bottom:15%;
+    left: 10%;
+    color:white;
+    font-size: larger;
+}
     .gallerymain{
     width: 300%;
     display: flex;
